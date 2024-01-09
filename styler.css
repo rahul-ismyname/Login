@@ -1,0 +1,81 @@
+body{
+    background-image: url(W1.jpg);
+    background-size: 100%;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+.nav-bar button{
+    background: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 6px;
+    border-color: white;
+    color: white;
+}
+.nav-bar a{
+    color: black;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 10px;
+}
+.left button{
+    background-color: rgba(0,203,75,255);
+    color: black;
+    width: 40%;
+    height: 7%;
+    border: none;
+    border-radius: 10px;
+}
+.left{
+    padding-left: 10%;
+    margin-top: 6%;
+    color: white;
+    align-items: flex-end;
+    width: 50%;
+    text-align: left;
+}
+.rest-of-page{
+    display: flex;
+    height: 80vh;
+    margin-top: 5%;
+}
+.nav-list{
+    font-size:20;
+}
+.right{
+    margin-right: 20%;
+    margin-left: 20%;
+    height: 60%;
+    background-color: white;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    text-align: center;
+}
+.options{
+    margin-bottom: 3%;
+    height: 5%;
+}
+.right input, .right select{
+    background-color: rgb(224, 224, 224);
+    height: 10%;
+    border: none;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 10px;
+}
+.right button{
+    height: 12%;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+    border: none;
+    background-color: rgba(30,129,255,255);
+    border-radius: 50px;
+}
